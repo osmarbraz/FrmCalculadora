@@ -46,11 +46,12 @@ public class FrmCalculadora extends javax.swing.JFrame {
 
         jLabel2.setText("Valor B:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 120, 80, 16);
+        jLabel2.setBounds(20, 130, 80, 16);
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Resultador:");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(20, 180, 80, 16);
+        jLabel3.setBounds(20, 190, 80, 16);
         jPanel1.add(JTFValorA);
         JTFValorA.setBounds(17, 35, 77, 22);
         jPanel1.add(JTFValorB);
@@ -167,6 +168,7 @@ public class FrmCalculadora extends javax.swing.JFrame {
         // TODO add your handling code here:
         //Limpa as caixas de texto e rótulos
         JTFValorA.setText("");
+        JCOperacao.setSelectedIndex(0);
         JTFValorB.setText("");
         JLResultado.setText("0.0");
 

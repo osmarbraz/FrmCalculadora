@@ -8,6 +8,10 @@
  - A pasta src contêm os fontes do projeto.<br>
  - A interface gráfica foi construída **com** o auxílio da IDE NetBeans.<br>
 
+### Interface gráfica
+
+![tela1](tela1.png)
+
 ## Arquivos
 
 - pom.xml - Arquivo de configurção da ferramenta de automação Maven.

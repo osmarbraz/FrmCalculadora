@@ -49,7 +49,7 @@ public class FrmCalculadora extends javax.swing.JFrame {
         jLabel2.setBounds(20, 130, 80, 16);
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setText("Resultador:");
+        jLabel3.setText("Resultado:");
         jPanel1.add(jLabel3);
         jLabel3.setBounds(20, 190, 80, 16);
         jPanel1.add(JTFValorA);

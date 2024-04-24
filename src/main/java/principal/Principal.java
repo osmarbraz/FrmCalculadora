@@ -7,7 +7,7 @@ public class Principal {
     public static void main(String[] args) {
         //Instância a interface gráfica
         FrmCalculadora janela = new FrmCalculadora();
-        //Deixa a janela visível
+        //Torna a janela visível
         janela.setVisible(true);
     }
 }

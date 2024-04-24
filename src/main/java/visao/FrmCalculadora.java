@@ -1,6 +1,6 @@
 package visao;
 
-import calculadora.Calculadora;
+import modelo.Calculadora;
 
 public class FrmCalculadora extends javax.swing.JFrame {
 

@@ -138,7 +138,6 @@ public class FrmCalculadora extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void JBCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBCalcularActionPerformed
-        // TODO add your handling code here:
         //Instância a Calculadora
         Calculadora calculadora = new Calculadora();
         //Recupera os valores das caixas de texto
@@ -165,7 +164,6 @@ public class FrmCalculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_JBCalcularActionPerformed
 
     private void JBLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBLimparActionPerformed
-        // TODO add your handling code here:
         //Limpa as caixas de texto e rótulos
         JTFValorA.setText("");
         JCOperacao.setSelectedIndex(0);
@@ -175,7 +173,6 @@ public class FrmCalculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_JBLimparActionPerformed
 
     private void JBFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBFecharActionPerformed
-        // TODO add your handling code here:
         //Encerra o programa
         System.exit(0);
     }//GEN-LAST:event_JBFecharActionPerformed

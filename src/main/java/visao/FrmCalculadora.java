@@ -138,12 +138,11 @@ public class FrmCalculadora extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void JBCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBCalcularActionPerformed
-        //Instância a Calculadora
+        //Instancia a Calculadora
         Calculadora calculadora = new Calculadora();
         //Recupera os valores das caixas de texto
         calculadora.setValorA(Double.parseDouble(JTFValorA.getText()));
         calculadora.setValorB(Double.parseDouble(JTFValorB.getText()));
-
         //Recupera o resultado da adição
         if (JCOperacao.getSelectedIndex() == 0) {
             JLResultado.setText("" + calculadora.getSoma());

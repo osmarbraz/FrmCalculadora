@@ -139,25 +139,25 @@ public class FrmCalculadora extends javax.swing.JFrame {
 
     private void JBCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBCalcularActionPerformed
         // TODO add your handling code here:
-        //Instância a Calculadora
+        // Instância a Calculadora
         Calculadora calculadora = new Calculadora();
         //Recupera os valores das caixas de texto
         calculadora.setValorA(Double.parseDouble(JTFValorA.getText()));
         calculadora.setValorB(Double.parseDouble(JTFValorB.getText()));
 
-        //Recupera o resultado da adição
+        // Recupera o resultado da adição
         if (JCOperacao.getSelectedIndex() == 0) {
             JLResultado.setText("" + calculadora.getSoma());
         } else {
-            //Recupera o resultado da subtração
+            // Recupera o resultado da subtração
             if (JCOperacao.getSelectedIndex() == 1) {
                 JLResultado.setText("" + calculadora.getDiferenca());
             } else {
-                //Recupera o resultado da multiplicação
+                // Recupera o resultado da multiplicação
                 if (JCOperacao.getSelectedIndex() == 2) {
                     JLResultado.setText("" + calculadora.getProduto());
                 } else {
-                    //Recupera o resultado da divisão
+                    // Recupera o resultado da divisão
                     JLResultado.setText("" + calculadora.getQuociente());
                 }
             }
@@ -165,8 +165,7 @@ public class FrmCalculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_JBCalcularActionPerformed
 
     private void JBLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBLimparActionPerformed
-        // TODO add your handling code here:
-        //Limpa as caixas de texto e rótulos
+        // Limpa as caixas de texto e rótulos
         JTFValorA.setText("");
         JCOperacao.setSelectedIndex(0);
         JTFValorB.setText("");
@@ -175,8 +174,7 @@ public class FrmCalculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_JBLimparActionPerformed
 
     private void JBFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBFecharActionPerformed
-        // TODO add your handling code here:
-        //Encerra o programa
+        // Encerra o programa
         System.exit(0);
     }//GEN-LAST:event_JBFecharActionPerformed
 

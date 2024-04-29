@@ -42,32 +42,32 @@ public class FrmCalculadora extends javax.swing.JFrame {
 
         jLabel1.setText("Valor A:");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(17, 18, 70, 16);
+        jLabel1.setBounds(17, 18, 70, 21);
 
         jLabel2.setText("Valor B:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 130, 80, 16);
+        jLabel2.setBounds(20, 130, 80, 21);
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Resultado:");
         jPanel1.add(jLabel3);
         jLabel3.setBounds(20, 190, 80, 16);
         jPanel1.add(JTFValorA);
-        JTFValorA.setBounds(17, 35, 77, 22);
+        JTFValorA.setBounds(17, 35, 77, 29);
         jPanel1.add(JTFValorB);
-        JTFValorB.setBounds(20, 150, 77, 22);
+        JTFValorB.setBounds(20, 150, 77, 29);
 
         JLResultado.setText("0.0");
         jPanel1.add(JLResultado);
-        JLResultado.setBounds(20, 210, 80, 16);
+        JLResultado.setBounds(20, 210, 80, 21);
 
         JCOperacao.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Adição", "Subtração", "Multiplicação", "Divisão" }));
         jPanel1.add(JCOperacao);
-        JCOperacao.setBounds(20, 90, 106, 22);
+        JCOperacao.setBounds(20, 90, 135, 29);
 
         jLabel4.setText("Operação:");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(20, 70, 80, 16);
+        jLabel4.setBounds(20, 70, 80, 21);
 
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
